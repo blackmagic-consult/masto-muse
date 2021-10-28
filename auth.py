@@ -1,7 +1,7 @@
 from mastodon import Mastodon
 from os import path
 
-instance = str(input("What is your Mastodon Instance URL [i.e. https://mastodon.social]: "))
+instance = str(input("What is your Mastodon instance URL [i.e. https://mastodon.social]: "))
 
 if path.isfile('masto-muse_appcred.secret') is False:
 	Mastodon.create_app(
