@@ -28,7 +28,7 @@ Every time the song changes, your mastodon bio will reflect the new song.
 
 # For the Future
 
-This is barely a proof of concept, and many things need to be fixed and added. I'll get around to it eventually, probably.
+---This is barely a proof of concept, and many things need to be fixed and added. I'll get around to it eventually, probably.---
 
 1. auth.py needs to be streamlined. Does each instance need a seperate application cred? I do not know, so I leave users to generate one. This is probably a gross practice, but can't be sure.
 
